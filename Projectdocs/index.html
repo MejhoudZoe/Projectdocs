@@ -17,8 +17,8 @@
       theme: {
         extend: {
           colors: {
-            bg: "#e9e6ee",      // achtergrond
-            ink: "#172533",     // tekstkleur
+            bg: "#e9e6ee",
+            ink: "#172533",
             muted: "#5c6a78",
             card: "#ffffff",
             stroke: "#e3e6ec",
@@ -57,18 +57,17 @@
         <p class="text-accent font-semibold text-[clamp(1.05rem,2.4vw,1.2rem)]">
           Mijn proces, keuzes en reflecties week per week.
         </p>
-        <!-- Naam + groep (verplicht op elke pagina) -->
+        <!-- Naam + groep -->
         <p class="text-muted text-sm mt-1">
           Zöe Mejhoud — 1GDM2
         </p>
       </div>
 
-      <!-- Back home + (optioneel) extra knoppen -->
+      <!-- Scroll naar boven -->
       <div class="flex flex-col items-start md:items-end gap-2 mt-1">
-        <!-- Back home button (op home gaat die gewoon naar top) -->
         <a href="#top"
            class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-stroke bg-card text-sm text-ink no-underline hover:bg-white hover:shadow-md transition">
-          ← Back home
+          ↑ Naar boven
         </a>
       </div>
     </div>
@@ -96,11 +95,11 @@
       </p>
 
       <div class="flex flex-col gap-3">
-        <!-- PDF download (pas href aan als je PDF er is) -->
-     <a href="ontwerpdocumentatie.pdf"
-   class="inline-block bg-accent text-white px-5 py-3 rounded-lg font-semibold text-sm hover:opacity-90 transition no-underline">
-  📄 Download ontwerpdocumentatie (PDF)
-</a>
+        <!-- PDF download -->
+        <a href="ontwerpdocumentatie.pdf"
+           class="inline-block bg-accent text-white px-5 py-3 rounded-lg font-semibold text-sm hover:opacity-90 transition no-underline">
+          📄 Download ontwerpdocumentatie (PDF)
+        </a>
 
         <!-- FIGMA -->
         <a href="https://www.figma.com/design/16JneNksqmYAK9FpDRBUXH/MejhoudZ%C3%B6e_PRTT_Mobiletrainslation?node-id=0-1&m=dev&t=wlB4tjsOasFV718a-1"
@@ -109,16 +108,18 @@
           📱 Bekijk finale mobile applicatie (Figma prototype)
         </a>
 
-        <!-- NETLIFY (later invullen) -->
-        <a href="#"
+        <!-- NETLIFY LIVE -->
+        <a href="https://mejhoudzoe.netlify.app"
+           target="_blank"
            class="inline-block bg-accent text-white px-5 py-3 rounded-lg font-semibold text-sm hover:opacity-90 transition no-underline">
-          🌐 Live versie op Netlify (link volgt)
+          🌐 Live versie op Netlify
         </a>
 
-        <!-- GITHUB (later invullen) -->
-        <a href="#"
+        <!-- GITHUB REPO -->
+        <a href="https://github.com/MejhoudZoe/Projectdocs"
+           target="_blank"
            class="inline-block bg-accent text-white px-5 py-3 rounded-lg font-semibold text-sm hover:opacity-90 transition no-underline">
-          💻 GitHub repository (link volgt)
+          💻 GitHub repository (laatste versie code)
         </a>
       </div>
     </section>
@@ -266,7 +267,7 @@
           </a>
         </li>
 
-        <!-- NIEUW: Week 11 -->
+        <!-- Week 11 -->
         <li>
           <a class="block px-4 py-[18px] rounded-tile no-underline bg-white border border-stroke text-ink 
                      transition hover:-translate-y-0.5 hover:bg-gradient-to-t hover:from-white hover:to-[#fbfcff] 
@@ -276,12 +277,12 @@
               Week 11
             </span>
             <small class="block mt-1 text-muted text-sm">
-              linken van de paginas
+              Linken van de pagina's
             </small>
           </a>
         </li>
 
-        <!-- NIEUW: Week 12 (generiek, als je die hebt) -->
+        <!-- Week 12 -->
         <li>
           <a class="block px-4 py-[18px] rounded-tile no-underline bg-white border border-stroke text-ink 
                      transition hover:-translate-y-0.5 hover:bg-gradient-to-t hover:from-white hover:to-[#fbfcff] 
@@ -312,7 +313,10 @@
   <footer class="border-t border-stroke text-muted mt-10 py-4">
     <div class="max-w-layout mx-auto px-base text-xs sm:text-sm">
       <small>
-        Zöe Mejhoud — 1GDM2 • Project: Lost in Tra(i)nslation
+        Zöe Mejhoud — 1GDM2 • Project: Lost in Tra(i)nslation •
+        <a href="https://github.com/MejhoudZoe/Projectdocs" target="_blank" class="text-accent hover:underline">
+          Laatste versie op GitHub
+        </a>
       </small>
     </div>
   </footer>
